@@ -1,79 +1,77 @@
-
 @media (max-width: 768px) {
-    .app {
-        width: 360px;
-        gap: 1.5rem;
-    }
+  .app {
+    width: 360px;
+    gap: 1.5rem;
+  }
 
-    .input {
-        display: flex;
-        justify-content: center;
-    }
+  .input {
+    display: flex;
+    justify-content: center;
+  }
 
-    .input__field {
-        width: 220px;
-        height: 60px;
-    }
+  .input__field {
+    width: 220px;
+    height: 60px;
+  }
 
-    .input__field.extended {
-        height: 700px;
-    }
+  .input__field.extended {
+    height: 700px;
+  }
 
-    .mobile__navbar {
-        display: grid;
-        grid-template-columns: 1fr 300px 1fr;
-        align-items: center;
-    }
+  .mobile__navbar {
+    display: grid;
+    grid-template-columns: 1fr 300px 1fr;
+    align-items: center;
+  }
 
-    .app__title {
-        display: none;
-    }
-    
-    .app__title__mobile {
-        grid-column-start: 2;
-        font-size: 20px;
-        white-space: nowrap;
-        overflow: hidden;
-    }
+  .app__title {
+    display: none;
+  }
 
-    .input__controlls {
-        width: 400px;
-    }
+  .app__title__mobile {
+    grid-column-start: 2;
+    font-size: 20px;
+    white-space: nowrap;
+    overflow: hidden;
+  }
 
-    .mobile__menu {
-        justify-self: end;
-        grid-column-start: 3;
-    }
+  .input__controlls {
+    width: 400px;
+  }
 
-    .adv__options__slider__container {
-        display: none;
-    }
-    
-    #results__section {
-        align-self: center;
-    }
-    
-    .normal__lang__switch {
-        display: none;
-    }
-    
-    .mobile__lang__switch {
-        display: flex;
-        align-self: flex-end;
-    }
+  .mobile__menu {
+    justify-self: end;
+    grid-column-start: 3;
+  }
 
-    .mobile__menu__container.active {
-        position: absolute;
-        z-index: 2;
-        background-color: var(--base-color-dark);
-        width: 600px;
-        height: 100vw;
-        top: 2rem;
-        left: 15rem;
-    }
+  .adv__options__slider__container {
+    display: none;
+  }
 
-    .adv__options__section {
-        display: none;
-    }
+  #results__section {
+    align-self: center;
+  }
+
+  .normal__lang__switch {
+    display: none;
+  }
+
+  .mobile__lang__switch {
+    display: flex;
+    align-self: flex-end;
+  }
+
+  .mobile__menu__container.active {
+    position: absolute;
+    z-index: 2;
+    background-color: var(--base-color-dark);
+    width: 600px;
+    height: 100vw;
+    top: 2rem;
+    left: 15rem;
+  }
+
+  .adv__options__section {
+    display: none;
+  }
 }
-

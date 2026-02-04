@@ -6,6 +6,12 @@ A simple web application that receives a text input and displays:
 - Sentence count  
 - Average sentence length  
 
+---
+
+## Live Demo
+
+https://calm-manatee-275846.netlify.app/
+
 
 ---
 
@@ -36,10 +42,7 @@ A simple web application that receives a text input and displays:
 3. The results will appear below  
 
 
-
-
---------------------------------------------------
-
+---
 
 
 ## Wort- und Satzzähler [DEUTSCH]

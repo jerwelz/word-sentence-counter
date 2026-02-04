@@ -1,59 +1,57 @@
 *,
 *::before,
 *::after {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
-:root{
-    --base-color: rgb(211, 211, 211);
-    --base-variant: rgb(66, 66, 66);
-    --text-color: rgb(66, 66, 66);
-    --base-color-dark: rgb(185, 185, 185);
-    --toggle-knob-color: rgb(74, 104, 139);
+:root {
+  --base-color: rgb(211, 211, 211);
+  --base-variant: rgb(66, 66, 66);
+  --text-color: rgb(66, 66, 66);
+  --base-color-dark: rgb(185, 185, 185);
+  --toggle-knob-color: rgb(74, 104, 139);
 }
 
 * {
-    margin: 0;
-    padding: 0;
-    line-height: 1.5;
+  margin: 0;
+  padding: 0;
+  line-height: 1.5;
 }
 
 html {
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 
 body {
-    display: flex;
-    justify-content: center;
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: var(--base-variant);
-    background-repeat: no-repeat;
-    background-size: cover;
+  display: flex;
+  justify-content: center;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: var(--base-variant);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-img, 
+img,
 picture,
 video,
 canvas,
 svg {
-    display: block;
-    max-width: 100%;
+  display: block;
+  max-width: 100%;
 }
 
 input,
 button,
 textarea,
 select {
-    font: inherit;
+  font: inherit;
 }
 
 button {
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
-    border: none;
-    background: none;
-    color: inherit;
-    cursor: pointer;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  border: none;
+  background: none;
+  color: inherit;
+  cursor: pointer;
 }
-
-

@@ -1,133 +1,130 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="stylescss/main.css">
-    <link rel="stylesheet" href="stylescss/layout.css">
-    <link rel="stylesheet" href="stylescss/responsive.css">
-    <link rel="stylesheet" href="stylescss/components.css">
-    <title>Word and Sentence Counter</title>
-  </head>
-  <body class="">
-    <div class="dark__overlay"></div>
-    
-    <div class="mobile__sidebar">
-      <button class="close-menu" aria-label="Menü schließen">
-        <svg viewBox="0 0 24 24" width="35" height="35" aria-hidden="true">
-          <line x1="4" y1="4" x2="20" y2="20" />
-          <line x1="20" y1="4" x2="4" y2="20" />
-        </svg>
-      </button>
-      <div class="mobile__slider">
-        <p id="mobile__darkmode__slider__text">Darkmode</p>
-        <div class="toggle" data-toggle="darkmode">
-          <div class="toggle__knob"></div>
-        </div>
-      </div>
-      
-      <div class="mobile__slider">
-        <p id="mobile__adv__input__field__slider__text">Extend Input field</p>
-        <div class="toggle" data-toggle="extend-input">
-          <div class="toggle__knob"></div>
-        </div>
-      </div>
 
-    </div>
-    <h2 class="app__title">Word and Sentence Counter</h2>
-    <div class="app">
-    
-    
-      
-      <div class="mobile__navbar">
-        <h2 class="app__title__mobile">Word and Sentence Counter</h2>
-        
-        
-        <div class="mobile__menu">
-          <div class="bar__one"></div>
-          <div class="bar__two"></div>
-          <div class="bar__three"></div>
-        </div>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="stylescss/main.css">
+  <link rel="stylesheet" href="stylescss/layout.css">
+  <link rel="stylesheet" href="stylescss/responsive.css">
+  <link rel="stylesheet" href="stylescss/components.css">
+  <title>Word and Sentence Counter</title>
+</head>
+
+<body class="">
+  <div class="dark__overlay"></div>
+
+  <div class="mobile__sidebar">
+    <button class="close-menu" aria-label="Menü schließen">
+      <svg viewBox="0 0 24 24" width="35" height="35" aria-hidden="true">
+        <line x1="4" y1="4" x2="20" y2="20" />
+        <line x1="20" y1="4" x2="4" y2="20" />
+      </svg>
+    </button>
+    <div class="mobile__slider">
+      <p id="mobile__darkmode__slider__text">Darkmode</p>
+      <div class="toggle" data-toggle="darkmode">
+        <div class="toggle__knob"></div>
       </div>
-      
-      <button 
-      class="mobile__lang__switch lang__switch"
-      aria-label="Change language"
-      aria-pressed="false">
+    </div>
+
+    <div class="mobile__slider">
+      <p id="mobile__adv__input__field__slider__text">Extend Input field</p>
+      <div class="toggle" data-toggle="extend-input">
+        <div class="toggle__knob"></div>
+      </div>
+    </div>
+
+  </div>
+  <div class="app">
+
+    <h2 class="app__title">Word and Sentence Counter</h2>
+
+
+    <div class="mobile__navbar">
+      <h2 class="app__title__mobile">Word and Sentence Counter</h2>
+
+
+      <div class="mobile__menu">
+        <div class="bar__one"></div>
+        <div class="bar__two"></div>
+        <div class="bar__three"></div>
+      </div>
+    </div>
+
+    <button class="mobile__lang__switch lang__switch" aria-label="Change language" aria-pressed="false">
       DE / EN
     </button>
-    
+
     <section class="input">
       <div class="input__controlls">
         <textarea class="input__field" aria-label="Textfield" placeholder="What should be analyzed?"></textarea>
         <button class="input__button">Analyze</button>
       </div>
       <div class="sidebar">
-        
-        <button 
-        class="normal__lang__switch lang__switch"
-        aria-label="Change language"
-        aria-pressed="false">
-        DE / EN
-      </button>
-      <div id="sidebar__gap"></div>
-      
-      <div class="adv__options__slider__container">
-        <p id="adv__options__text">Advanced Options</p>
-        <div class="toggle" data-toggle="adv__options">
+
+        <button class="normal__lang__switch lang__switch" aria-label="Change language" aria-pressed="false">
+          DE / EN
+        </button>
+        <div id="sidebar__gap"></div>
+
+        <div class="adv__options__slider__container">
+          <p id="adv__options__text">Advanced Options</p>
+          <div class="toggle" data-toggle="adv__options">
+            <div class="toggle__knob"></div>
+          </div>
+        </div>
+      </div>
+
+
+    </section>
+
+    <section class="adv__options__section">
+      <div class="slider__container">
+        <p id="darkmode__text">Darkmode</p>
+        <div class="toggle" data-toggle="darkmode">
           <div class="toggle__knob"></div>
         </div>
       </div>
-    </div>
-    
-    
-  </section>
-  
-  <section class="adv__options__section">
-    <div class="slider__container">
-      <p id="darkmode__text">Darkmode</p>
-      <div class="toggle" data-toggle="darkmode">
-        <div class="toggle__knob"></div>
+      <div class="slider__container">
+        <p id="ex__input__field__slider__text">Extend Input field</p>
+        <div class="toggle" data-toggle="extend-input">
+          <div class="toggle__knob"></div>
+        </div>
       </div>
-    </div>
-    <div class="slider__container">
-      <p id="ex__input__field__slider__text">Extend Input field</p>
-      <div class="toggle" data-toggle="extend-input">
-        <div class="toggle__knob"></div>
-      </div>
-    </div>
-  </section>
-  
-  
-  
-  <section id="results__section">
-    <h2 id="result__text">Results</h2>
-    
-    <p>
-      <strong id="result__word__count__text">Word count:</strong>
-      <span id="wordCount">–</span>
-    </p>
-    
-    <p>
-      <strong id="result__sentence__count__text">Sentence count:</strong>
-      <span id="sentenceCount">–</span>
-    </p>
-    
-    <p>
-      <strong id="result__avg__sentence__length__text">Average sentence length:</strong>
-      <span id="avgSentenceLength">–</span>
-    </p>
-    
-    <p id="warning" hidden>
-      Sentences are longer than the recommended threshold.
-    </p>
-  </section>
-</div>
-</div>
+    </section>
 
-<script src="js/selectors.js"></script>
-<script src="js/textanalysis.js"></script>
-<script src="js/i18n.js"></script>
-<script src="js/toggle.js"></script>
+
+
+    <section id="results__section">
+      <h2 id="result__text">Results</h2>
+
+      <p>
+        <strong id="result__word__count__text">Word count:</strong>
+        <span id="wordCount">–</span>
+      </p>
+
+      <p>
+        <strong id="result__sentence__count__text">Sentence count:</strong>
+        <span id="sentenceCount">–</span>
+      </p>
+
+      <p>
+        <strong id="result__avg__sentence__length__text">Average sentence length:</strong>
+        <span id="avgSentenceLength">–</span>
+      </p>
+
+      <p id="warning" hidden>
+        Sentences are longer than the recommended threshold.
+      </p>
+    </section>
+  </div>
+  </div>
+
+  <script src="js/selectors.js"></script>
+  <script src="js/textanalysis.js"></script>
+  <script src="js/i18n.js"></script>
+  <script src="js/toggle.js"></script>
 </body>
+
 </html>

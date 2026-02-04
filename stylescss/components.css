@@ -1,58 +1,56 @@
 .advanced__options__slider__background {
-    width: 45px;
-    height: 23px;
-    background-color: var(--base-color);
-    border-radius: 18px;
-    display: flex;
-    align-items: center;
-    box-shadow: inset rgba(0,0,0,0.3) 2px 2px 5px 2px;
-    cursor: pointer;
+  width: 45px;
+  height: 23px;
+  background-color: var(--base-color);
+  border-radius: 18px;
+  display: flex;
+  align-items: center;
+  box-shadow: inset rgba(0, 0, 0, 0.3) 2px 2px 5px 2px;
+  cursor: pointer;
 }
 
 .advanced__options__slider {
-    position: relative;
-    width: 17px;
-    height: 17px;
-    background-color: rgb(74, 104, 139);
-    border-radius: 100%;
-    margin: 3px;
-    left: 2px;
-    transition: 0.2s ease-out;
+  position: relative;
+  width: 17px;
+  height: 17px;
+  background-color: rgb(74, 104, 139);
+  border-radius: 100%;
+  margin: 3px;
+  left: 2px;
+  transition: 0.2s ease-out;
 }
 
 .advanced__options__slider.active {
-    position: relative;
-    left: 20px;
+  position: relative;
+  left: 20px;
 }
 
-/* slider fixed */
-
-.toggle {
-    width: 45px;
-    height: 23px;
-    background-color: var(--base-color);
-    border-radius: 18px;
-    display: flex;
-    align-items: center;
-    cursor: pointer;
-    box-shadow: inset rgba(0,0,0,0.3) 2px 2px 5px 2px;
-    background-color: rgba(0,0,0,0.1);
+F .toggle {
+  width: 45px;
+  height: 23px;
+  background-color: var(--base-color);
+  border-radius: 18px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  box-shadow: inset rgba(0, 0, 0, 0.3) 2px 2px 5px 2px;
+  background-color: rgba(0, 0, 0, 0.1);
 }
 
 .toggle__knob {
-    width: 17px;
-    height: 17px;
-    margin: 5px;
-    border-radius: 50%;
-    background-color: var(--toggle-knob-color);
-    transform: translateX(0);
-    transition: transform 0.2s ease;
+  width: 17px;
+  height: 17px;
+  margin: 5px;
+  border-radius: 50%;
+  background-color: var(--toggle-knob-color);
+  transform: translateX(0);
+  transition: transform 0.2s ease;
 }
 
 .toggle.active {
-    background-color: rgba(0,0,0,0.0);
+  background-color: rgba(0, 0, 0, 0);
 }
 
 .toggle.active .toggle__knob {
-    transform: translateX(18px);
+  transform: translateX(18px);
 }
