@@ -5,6 +5,11 @@
         gap: 1.5rem;
     }
 
+    .input {
+        display: flex;
+        justify-content: center;
+    }
+
     .input__field {
         width: 220px;
         height: 60px;
