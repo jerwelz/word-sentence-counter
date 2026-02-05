@@ -1,5 +1,6 @@
 @media (max-width: 768px) {
   .app {
+    display: flex;
     width: 360px;
     gap: 1.5rem;
   }
@@ -19,8 +20,8 @@
   }
 
   .mobile__navbar {
-    display: grid;
-    grid-template-columns: 1fr 300px 1fr;
+    display: flex;
+    justify-content: center;
     align-items: center;
   }
 
