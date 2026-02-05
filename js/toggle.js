@@ -19,7 +19,7 @@ toggleBtn.forEach((toggle) => {
     }
 
     if (type === "extend-input") {
-      inputFieldEl.classList.tFoggle("extended");
+      inputFieldEl.classList.toggle("extended");
     }
   });
 });
