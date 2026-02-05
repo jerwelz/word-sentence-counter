@@ -23,6 +23,7 @@
 
 .mobile__navbar {
   display: none;
+  gap: 1rem;
 }
 
 .input {
